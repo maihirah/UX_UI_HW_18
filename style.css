@@ -187,11 +187,11 @@ ul {
 li {
     padding: 5px;
 }
-/* Mobile Media Query */
+Mobile Media Query
 @media screen and (max-width: 600px) {
-    /* My UX Skills Section Mobile Styles */
+    skills
     .mySkills {
-        margin: 20px; /* Adjust as needed for spacing */
+        margin: 20px; 
     }
 
     .mySkills h1 {
@@ -203,8 +203,7 @@ li {
         width: 100%;
         margin-bottom: 20px;
     }
-
-    /* My Work Section Mobile Styles */
+work
     .myWork {
         padding: 40px; /* Adjust as needed for spacing */
     }
