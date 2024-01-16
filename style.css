@@ -1,0 +1,215 @@
+Navbar
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+.logo {
+    text-align: left;
+}
+
+Hero Image
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* My UX Skills Section */
+.mySkills{
+    text-align: left;
+    margin: 49px;
+  font-family: 'Tomato Ketchup', sans-serif;
+  font-size: 40px;
+  color: #242424;
+}
+
+.mySkills h1 {
+    font-size: 38px;
+    margin-bottom: 33px;
+    font-family: 'Tomato Ketchup', sans-serif;
+    font-weight: bold;
+    color: #242424;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexContainer div {
+    width: 33%;
+    padding: 20px;
+    margin: 10px;
+}
+
+.flexContainer h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+    color: #242424;
+}
+
+.flexContainer p {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: #242424;
+}
+
+/* My Work Section */
+.myWork {
+    text-align: center;
+    padding: 80px;
+    font-size: 22px;
+    font-family: 'Tomato Ketchup', sans-serif;
+    color: #242424;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    font-size: 22px;
+    font-family: 'Tomato Ketchup', sans-serif;
+    color: #242424;
+  
+}
+
+.workGrid div {
+    text-align: left;
+    padding: 30px;
+    font-family: 'Roboto Slab', serif;
+    color: #242424;
+    font-size: 22px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+<!--  My UX Skills section coded using CSS flex -->
+.mySkills {
+    text-align: left;
+    margin: 49px;
+    font-family: 'Tomato Ketchup', sans-serif;
+    font-size: 40px;
+    color: #242424;
+}
+
+.mySkills h1 {
+    font-size: 38px;
+    margin-bottom: 33px;
+    font-family: 'Tomato Ketchup', sans-serif;
+    font-weight: bold;
+    color: #242424;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexContainer div {
+    width: 33%;
+    padding: 20px;
+    margin: 10px;
+}
+
+.flexContainer h3 {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: 'Roboto Slab', serif;
+    color: #242424;
+}
+
+.flexContainer p {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    color: #242424;
+}
+
+<!-- My Work Section Constructed using CSS Grid -->
+.myWork {
+    text-align: center;
+    padding: 80px;
+    font-size: 22px;
+    font-family: 'Tomato Ketchup', sans-serif;
+    color: #242424;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    font-size: 22px;
+    font-family: 'Tomato Ketchup', sans-serif;
+    color: #242424;
+}
+
+.workGrid div {
+    text-align: left;
+    padding: 30px;
+    font-family: 'Roboto Slab', serif;
+    color: #242424;
+    font-size: 22px;
+}
+
+Footer
+footer {
+    background-color: #373738;
+    padding: 10px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+li {
+    padding: 5px;
+}
+/* Mobile Media Query */
+@media screen and (max-width: 600px) {
+    /* My UX Skills Section Mobile Styles */
+    .mySkills {
+        margin: 20px; /* Adjust as needed for spacing */
+    }
+
+    .mySkills h1 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .flexContainer div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    /* My Work Section Mobile Styles */
+    .myWork {
+        padding: 40px; /* Adjust as needed for spacing */
+    }
+
+    .workGrid {
+        grid-template-columns: 1fr;
+    }
+}
